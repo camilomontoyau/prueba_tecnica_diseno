@@ -172,6 +172,7 @@ body{
     text-align: center;
     padding-top: 14px;
     justify-content: center;
+    color: var(--color-main);
 }
 
 .step__circle {
@@ -190,4 +191,25 @@ body{
 
 .step__circle.dos {
     background-color: #f7931e;
+}
+
+.card__campos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card_campo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    color: var(--color-main);
+}
+
+.campo {
+    height: 20px;
 }
