@@ -1,6 +1,5 @@
 :root{
-    --border: 1px solid #000;
-    /* --border: 1px solid #e6e6e6; */
+    --border: 1px solid #e6e6e6;
     --color-main: #1a5692;
     --color-secundary: #e6e6e6;
     --font: Arial, Helvetica, sans-serif;
@@ -148,4 +147,47 @@ body{
     height: 387px;
     margin-bottom: 18px;
     border-radius: 12px;
+}
+
+.card__title {
+    background-color: var(--color-main);
+    color: #FFF;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    padding: 6px 24px;
+}
+
+.card__steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: var(--font);
+    font-size: 13px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 14px;
+    justify-content: center;
+}
+
+.step__circle {
+    background-color: var(--color-main);
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.step__circle.uno {
+    background-color: #f7931e;
+}
+
+.step__circle.dos {
+    background-color: #f7931e;
 }
