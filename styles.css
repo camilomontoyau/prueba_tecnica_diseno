@@ -219,6 +219,12 @@ body{
     border-left: 1px solid var(--color-secundary);
     border-bottom: 1px solid var(--color-secundary);
     border-radius: 3px;
+    background-image: url('./img/icon_nombres.svg');
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size: 13px;
+    padding-left: 28px;
+
 }
 
 .campo:focus {
