@@ -1,6 +1,6 @@
 :root{
-    /* --border: 1px solid #e2e2e2; */
     --border: 1px solid #000;
+    /* --border: 1px solid #e6e6e6; */
     --color-main: #1a5692;
     --color-secundary: #e6e6e6;
     --font: Arial, Helvetica, sans-serif;
@@ -26,12 +26,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 33px;
+    margin-top: 26px;
     border-radius: 9px;
+    margin-right: 30px;
 }
 
 .mi-right-content{
-    border: var(--border);
     display: flex;
     width: 100%;
     height: 100%;
@@ -112,23 +112,22 @@ body{
 .mi-bar-menu__button{
     width: 100%;
     height: 60px;
-    border-top: var(--border);
 }
 
 .mi-desktop-content{
     display: flex;
     height: calc(100% - 40px);
     background: var(--color-desktop);
-    padding: 8px;
     flex-wrap: wrap;
     overflow: auto;
+    margin-top: 27px;
 }
 
 .mi-desktop-content__demo,
 .mi-desktop-content__prototype{
     display: flex;
     flex-direction: column;
-    min-width: 620px;
+    min-width: 630px;
 }
 
 .mi-desktop-content__demo{
@@ -143,6 +142,10 @@ body{
     margin-bottom: 8px;
 }
 
-test {
-    font-family: Arial, Helvetica, sans-serif;
+.mi-desktop-content__prototype__card {
+    border: var(--border);
+    width: 667px;
+    height: 387px;
+    margin-bottom: 18px;
+    border-radius: 12px;
 }
